@@ -22733,15 +22733,219 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "App", ()=>App
 );
 var _jsxRuntime = require("react/jsx-runtime");
+var _outputCss = require("./Output.css");
 function App() {
-    return(/*#__PURE__*/ _jsxRuntime.jsx("h1", {
+    return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         __source: {
             fileName: "src/App.js",
-            lineNumber: 2,
-            columnNumber: 12
+            lineNumber: 6,
+            columnNumber: 9
         },
         __self: this,
-        children: "Hello son"
+        children: [
+            /*#__PURE__*/ _jsxRuntime.jsx("h1", {
+                class: "app-header",
+                __source: {
+                    fileName: "src/App.js",
+                    lineNumber: 7,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: "ALFRED"
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                class: "add-task",
+                __source: {
+                    fileName: "src/App.js",
+                    lineNumber: 9,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: [
+                    /*#__PURE__*/ _jsxRuntime.jsx("input", {
+                        type: "text",
+                        autocomplete: "off",
+                        placeholder: "Add New Task",
+                        class: "task-input",
+                        __source: {
+                            fileName: "src/App.js",
+                            lineNumber: 10,
+                            columnNumber: 9
+                        },
+                        __self: this
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsx("input", {
+                        type: "button",
+                        class: "submit-task addBtn",
+                        title: "Add Task",
+                        __source: {
+                            fileName: "src/App.js",
+                            lineNumber: 11,
+                            columnNumber: 9
+                        },
+                        __self: this
+                    })
+                ]
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsxs("ul", {
+                class: "task-list",
+                __source: {
+                    fileName: "src/App.js",
+                    lineNumber: 14,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: [
+                    /*#__PURE__*/ _jsxRuntime.jsxs("li", {
+                        class: "task-list-item",
+                        __source: {
+                            fileName: "src/App.js",
+                            lineNumber: 15,
+                            columnNumber: 9
+                        },
+                        __self: this,
+                        children: [
+                            /*#__PURE__*/ _jsxRuntime.jsxs("label", {
+                                class: "task-list-item-label",
+                                __source: {
+                                    fileName: "src/App.js",
+                                    lineNumber: 16,
+                                    columnNumber: 11
+                                },
+                                __self: this,
+                                children: [
+                                    /*#__PURE__*/ _jsxRuntime.jsx("input", {
+                                        type: "checkbox",
+                                        __source: {
+                                            fileName: "src/App.js",
+                                            lineNumber: 17,
+                                            columnNumber: 13
+                                        },
+                                        __self: this
+                                    }),
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        __source: {
+                                            fileName: "src/App.js",
+                                            lineNumber: 18,
+                                            columnNumber: 13
+                                        },
+                                        __self: this,
+                                        children: "My task to do"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                class: "delete-btn",
+                                __source: {
+                                    fileName: "src/App.js",
+                                    lineNumber: 20,
+                                    columnNumber: 11
+                                },
+                                __self: this
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsxs("li", {
+                        class: "task-list-item",
+                        __source: {
+                            fileName: "src/App.js",
+                            lineNumber: 23,
+                            columnNumber: 9
+                        },
+                        __self: this,
+                        children: [
+                            /*#__PURE__*/ _jsxRuntime.jsxs("label", {
+                                class: "task-list-item-label",
+                                __source: {
+                                    fileName: "src/App.js",
+                                    lineNumber: 24,
+                                    columnNumber: 11
+                                },
+                                __self: this,
+                                children: [
+                                    /*#__PURE__*/ _jsxRuntime.jsx("input", {
+                                        type: "checkbox",
+                                        __source: {
+                                            fileName: "src/App.js",
+                                            lineNumber: 25,
+                                            columnNumber: 13
+                                        },
+                                        __self: this
+                                    }),
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        __source: {
+                                            fileName: "src/App.js",
+                                            lineNumber: 26,
+                                            columnNumber: 13
+                                        },
+                                        __self: this,
+                                        children: "Another task hahaha"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                class: "delete-btn",
+                                __source: {
+                                    fileName: "src/App.js",
+                                    lineNumber: 28,
+                                    columnNumber: 11
+                                },
+                                __self: this
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsxs("li", {
+                        class: "task-list-item",
+                        __source: {
+                            fileName: "src/App.js",
+                            lineNumber: 31,
+                            columnNumber: 9
+                        },
+                        __self: this,
+                        children: [
+                            /*#__PURE__*/ _jsxRuntime.jsxs("label", {
+                                class: "task-list-item-label",
+                                __source: {
+                                    fileName: "src/App.js",
+                                    lineNumber: 32,
+                                    columnNumber: 11
+                                },
+                                __self: this,
+                                children: [
+                                    /*#__PURE__*/ _jsxRuntime.jsx("input", {
+                                        type: "checkbox",
+                                        __source: {
+                                            fileName: "src/App.js",
+                                            lineNumber: 33,
+                                            columnNumber: 13
+                                        },
+                                        __self: this
+                                    }),
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        __source: {
+                                            fileName: "src/App.js",
+                                            lineNumber: 34,
+                                            columnNumber: 13
+                                        },
+                                        __self: this,
+                                        children: "Demo the test son"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                class: "delete-btn",
+                                __source: {
+                                    fileName: "src/App.js",
+                                    lineNumber: 36,
+                                    columnNumber: 11
+                                },
+                                __self: this
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
     }));
 }
 _c = App;
@@ -22753,7 +22957,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"LyzX8","@parcel/transformer-js/src/esmodule-helpers.js":"j65Ap","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kRglg"}],"j65Ap":[function(require,module,exports) {
+},{"react/jsx-runtime":"LyzX8","@parcel/transformer-js/src/esmodule-helpers.js":"j65Ap","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"kRglg","./Output.css":"jpDMV"}],"j65Ap":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -22903,6 +23107,6 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"jtjPH"}]},["dL3Jf","bKKXx","hD4hw"], "hD4hw", "parcelRequire8b75")
+},{"react-refresh/runtime":"jtjPH"}],"jpDMV":[function() {},{}]},["dL3Jf","bKKXx","hD4hw"], "hD4hw", "parcelRequire8b75")
 
 //# sourceMappingURL=index.379dd93c.js.map
